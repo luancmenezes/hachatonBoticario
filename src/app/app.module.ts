@@ -6,11 +6,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 import { CadastroPage } from '../pages/cadastro/cadastro';
 =======
 import { LoginPage } from '../pages/login/login';
 >>>>>>> Stashed changes
 
+=======
+import { CadastroPage } from '../pages/cadastro/cadastro';
+>>>>>>> Stashed changes
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -35,10 +39,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ListPage,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     CadastroPage,
 =======
     LoginPage,
 
+>>>>>>> Stashed changes
+=======
+    CadastroPage
 >>>>>>> Stashed changes
   ],
   providers: [
