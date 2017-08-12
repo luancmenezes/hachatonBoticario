@@ -1,12 +1,16 @@
 page-map {
-#map {
-    height: 100%;
-  }
   .botao{
 		color: #fff;
 	}
   .botao-menu{
     margin-left: 85%;
     font-size: 30px;
+  }
+
+  .img-vend{
+    height: auto;
+    width: 600px;
+    position: absolute;
+    z-index: 9999;
   }
 }

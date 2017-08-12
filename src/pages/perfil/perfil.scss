@@ -10,8 +10,10 @@ page-perfil {
     font-size: 15px;
   }
   .img-vend{
-    margin-top: 10%;
-    margin-left: 16%;
+    height: auto;
+    width: 600px;
+    position: absolute;
+    z-index: 9999;
   }
 
   .img-rec{
@@ -24,5 +26,9 @@ page-perfil {
   .botao-menu{
     margin-left: 85%;
     font-size: 30px;
+  }
+
+  .center {
+    center: center;
   }
 }

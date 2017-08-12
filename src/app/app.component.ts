@@ -15,6 +15,8 @@ import { WelcomePage } from '../pages/welcome/welcome';
 import { FirstPage } from '../pages/first/first';
 import { PerguntaPage } from '../pages/pergunta/pergunta';
 import { SatisfacaoPage } from '../pages/satisfacao/satisfacao';
+import { PerfilvPage } from '../pages/perfilv/perfilv';
+import { PedidoPage } from '../pages/pedido/pedido';
 
 
 PerguntaPage
@@ -36,8 +38,10 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomeClientePage },
       { title: 'Login', component: LoginPage },
-      { title: 'Perfil', component: PerfilPage },
+      { title: 'Perfil Cliente', component: PerfilPage },
+      { title: 'Perfil Vendedor', component: PerfilvPage},
       { title: 'Sair', component: ThanksPage },
+      { title: 'Pedidos', component: PedidoPage},
       { title: 'Fragancias', component: FraganciasPage },
       { title: 'Produtos', component: ProdutosPage },
       { title: 'Encontre sua representante', component: MapPage },

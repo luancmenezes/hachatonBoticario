@@ -19,6 +19,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { FirstPage } from '../pages/first/first';
 import { PerguntaPage } from '../pages/pergunta/pergunta';
 import { SatisfacaoPage } from '../pages/satisfacao/satisfacao';
+import { PerfilvPage } from '../pages/perfilv/perfilv';
+import { PedidoPage } from '../pages/pedido/pedido';
 
 import { MyApp } from './app.component';
 
@@ -40,6 +42,8 @@ import { MyApp } from './app.component';
     FirstPage,
     PerguntaPage,
     SatisfacaoPage,
+    PerfilvPage,
+    PedidoPage,
   ],
   imports: [
     BrowserModule,
@@ -63,6 +67,8 @@ import { MyApp } from './app.component';
     FirstPage,
     PerguntaPage,
     SatisfacaoPage,
+    PerfilvPage,
+    PedidoPage,
   ],
   providers: [
     StatusBar,
