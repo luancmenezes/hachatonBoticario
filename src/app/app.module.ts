@@ -17,6 +17,8 @@ import { MapPage } from '../pages/map/map';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { FirstPage } from '../pages/first/first';
+import { PerguntaPage } from '../pages/pergunta/pergunta';
+import { SatisfacaoPage } from '../pages/satisfacao/satisfacao';
 
 import { MyApp } from './app.component';
 
@@ -36,7 +38,8 @@ import { MyApp } from './app.component';
     ThanksPage,
     WelcomePage,
     FirstPage,
-
+    PerguntaPage,
+    SatisfacaoPage,
   ],
   imports: [
     BrowserModule,
@@ -58,6 +61,8 @@ import { MyApp } from './app.component';
     WelcomePage,
     FraganciasPage,
     FirstPage,
+    PerguntaPage,
+    SatisfacaoPage,
   ],
   providers: [
     StatusBar,

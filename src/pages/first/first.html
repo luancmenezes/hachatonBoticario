@@ -5,7 +5,13 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu" class="botao">
+      <ion-icon name="ios-contact-outline" class="botao-menu"></ion-icon></ion-icon>
+    </button>
+    <ion-title></ion-title>
+  </ion-navbar>
 </ion-header>
 
 
@@ -16,17 +22,6 @@
      <div class ="balao_thanks">
        <img src="/assets/img/inicio.png" width="80%;" class ="balao_thanks">
      </div>
-   </ion-row>
-
-   <ion-row responsive-sm>
-     <ion-col>
-    </ion-col>
-      <ion-col>
-       <button [navPush]="welcomePage">Avançar</button>
-       </ion-col>
-
-       <ion-col>
-      </ion-col>
    </ion-row>
 
 

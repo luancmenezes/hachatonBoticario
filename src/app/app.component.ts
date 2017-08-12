@@ -36,12 +36,12 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomeClientePage },
       { title: 'Login', component: LoginPage },
+      { title: 'Perfil', component: PerfilPage },
 
       { title: 'Thanks', component: ThanksPage },
       { title: 'Map', component: MapPage },
       { title: 'Fragancias', component: FraganciasPage },
       { title: 'Produtos', component: ProdutosPage },
-      { title: 'Perfil vendedora', component: PerfilPage },
       { title: 'Encontre sua representante', component: MapPage },
       { title: 'First', component: FirstPage },
       { title: 'Pergunta', component: PerguntaPage },
