@@ -11,11 +11,18 @@ import { WelcomePage } from '../pages/welcome/welcome';
 import { ThanksPage } from '../pages/thanks/thanks';
 import { ProdutosPage } from '../pages/produtos/produtos';
 import { FraganciasPage } from '../pages/fragancias/fragancias';
+import { PerguntaPage } from '../pages/pergunta/pergunta';
+import { SatisfacaoPage } from '../pages/satisfacao/satisfacao';
+
+
 
 import { CadastroPage } from '../pages/cadastro/cadastro';
 import { MapPage } from '../pages/map/map';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
+
+
 
 import { MyApp } from './app.component';
 
@@ -33,7 +40,9 @@ import { MyApp } from './app.component';
     FraganciasPage,
     WelcomePage,
     ThanksPage,
-    WelcomePage
+    WelcomePage,
+    PerguntaPage,
+    SatisfacaoPage
 
   ],
   imports: [
@@ -53,7 +62,9 @@ import { MyApp } from './app.component';
     ProdutosPage,
     ThanksPage,
     MapPage,
-    WelcomePage
+    WelcomePage,
+    PerguntaPage,
+    SatisfacaoPage
 
   ],
   providers: [
