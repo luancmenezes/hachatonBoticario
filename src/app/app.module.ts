@@ -5,6 +5,11 @@ import { HomeClientePage } from '../pages/home-cliente/home-cliente';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { LoginPage } from '../pages/login/login';
+import { PerfilPage } from '../pages/perfil/perfil';
+import { WelcomePage } from '../pages/welcome/welcome';
+import { ThanksPage } from '../pages/thanks/thanks';
+import { ProdutosPage } from '../pages/produtos/produtos';
+import { FraganciasPage } from '../pages/fragancias/fragancias';
 import { CadastroPage } from '../pages/cadastro/cadastro';
 import { MapPage } from '../pages/map/map';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -20,8 +25,13 @@ import { MyApp } from './app.component';
     ListPage,
     CadastroPage,
     LoginPage,
-    MapPage
-    
+    MapPage,
+    PerfilPage,
+    ProdutosPage,
+    FraganciasPage,
+    WelcomePage,
+    ThanksPage
+
   ],
   imports: [
     BrowserModule,
@@ -36,8 +46,9 @@ import { MyApp } from './app.component';
     CadastroPage,
     LoginPage,
     CadastroPage,
-    MapPage
-    
+    MapPage,
+
+
   ],
   providers: [
     StatusBar,

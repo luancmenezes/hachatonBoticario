@@ -6,8 +6,12 @@ import { HomeClientePage } from '../pages/home-cliente/home-cliente';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { LoginPage } from '../pages/login/login';
+import { FraganciasPage } from '../pages/fragancias/fragancias';
+import { ProdutosPage } from '../pages/produtos/produtos';
 import { MapPage } from '../pages/map/map';
-
+import { ThanksPage } from '../pages/thanks/thanks';
+import { PerfilPage } from '../pages/perfil/perfil';
+import { WelcomePage } from '../pages/welcome/welcome';
 
 
 @Component({
@@ -16,22 +20,26 @@ import { MapPage } from '../pages/map/map';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: any = WelcomePage;
 
   pages: Array<{title: string, component: any}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
-    this.platform = platform;
     this.initializeApp();
 
     // used for an example of ngFor and navigation
-    
+
     this.pages = [
-      { title: 'Home2', component: 'HomePage'  },  
+      { title: 'Home2', component: HomePage },
       { title: 'List', component: ListPage },
       { title: 'Login', component: LoginPage },
       { title: 'Home', component: HomeClientePage },
+      { title: 'Thanks', component: ThanksPage },
+      { title: 'Fragancias', component: FraganciasPage },
+      { title: 'Produtos', component: ProdutosPage },
+      { title: 'Perfil vendedora', component: PerfilPage },
       { title: 'Encontre sua representante', component: MapPage },
+
     ];
 
   }
