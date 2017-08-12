@@ -53,8 +53,8 @@ import { MyApp } from './app.component';
     ProdutosPage,
     ThanksPage,
     MapPage,
-    WelcomePage
-
+    WelcomePage,
+    FraganciasPage,
   ],
   providers: [
     StatusBar,
