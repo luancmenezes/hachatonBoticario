@@ -6,6 +6,8 @@ import { HomeClientePage } from '../pages/home-cliente/home-cliente';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { LoginPage } from '../pages/login/login';
+import { MapPage } from '../pages/map/map';
+
 
 
 @Component({
@@ -28,6 +30,7 @@ export class MyApp {
       { title: 'List', component: ListPage },
       { title: 'Login', component: LoginPage },
       { title: 'Home', component: HomeClientePage },
+      { title: 'Encontre sua representante', component: MapPage },
     ];
 
   }
