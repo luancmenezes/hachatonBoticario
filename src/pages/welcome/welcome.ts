@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { FraganciasPage } from '../fragancias/fragancias';
 
 /**
  * Generated class for the WelcomePage page.
@@ -13,13 +14,17 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-welcome',
   templateUrl: 'welcome.html',
 })
+
 export class WelcomePage {
+  fraganciasPage = FraganciasPage;
+  //constructor(public navCtrl: NavController, public navParams: NavParams) {
+  //}
+  constructor(){
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad WelcomePage');
-  }
+  //ionViewDidLoad() {
+  //  console.log('ionViewDidLoad WelcomePage');
+  //}
 
 }
