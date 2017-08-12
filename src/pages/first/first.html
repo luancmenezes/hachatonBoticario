@@ -6,14 +6,6 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu" class="botao">
-      <ion-icon name="ios-contact-outline" class="botao-menu"></ion-icon></ion-icon>
-    </button>
-    <ion-title></ion-title>
-  </ion-navbar>
-
 </ion-header>
 
 
@@ -21,8 +13,8 @@
   <ion-grid>
 
    <ion-row responsive-sm>
-     <div class ="balao_welcome">
-       <img src="/assets/img/Ativo.png" width="80%;" class ="balao_welcome">
+     <div class ="balao_thanks">
+       <img src="/assets/img/inicio.png" width="80%;" class ="balao_thanks">
      </div>
    </ion-row>
 
@@ -30,7 +22,7 @@
      <ion-col>
     </ion-col>
       <ion-col>
-       <button [navPush]="fraganciasPage">Avançar</button>
+       <button [navPush]="welcomePage">Avançar</button>
        </ion-col>
 
        <ion-col>

@@ -12,6 +12,7 @@ import { MapPage } from '../pages/map/map';
 import { ThanksPage } from '../pages/thanks/thanks';
 import { PerfilPage } from '../pages/perfil/perfil';
 import { WelcomePage } from '../pages/welcome/welcome';
+import { FirstPage } from '../pages/first/first';
 
 
 @Component({
@@ -20,7 +21,7 @@ import { WelcomePage } from '../pages/welcome/welcome';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = WelcomePage;
+  rootPage: any = FirstPage;
 
   pages: Array<{title: string, component: any}>;
 
@@ -39,6 +40,7 @@ export class MyApp {
       { title: 'Produtos', component: ProdutosPage },
       { title: 'Perfil vendedora', component: PerfilPage },
       { title: 'Encontre sua representante', component: MapPage },
+      { title: 'First', component: FirstPage },
 
     ];
 

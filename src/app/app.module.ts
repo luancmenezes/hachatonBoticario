@@ -16,6 +16,7 @@ import { CadastroPage } from '../pages/cadastro/cadastro';
 import { MapPage } from '../pages/map/map';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { FirstPage } from '../pages/first/first';
 
 import { MyApp } from './app.component';
 
@@ -33,7 +34,8 @@ import { MyApp } from './app.component';
     FraganciasPage,
     WelcomePage,
     ThanksPage,
-    WelcomePage
+    WelcomePage,
+    FirstPage,
 
   ],
   imports: [
@@ -55,6 +57,7 @@ import { MyApp } from './app.component';
     MapPage,
     WelcomePage,
     FraganciasPage,
+    FirstPage,
   ],
   providers: [
     StatusBar,
