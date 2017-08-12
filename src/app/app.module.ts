@@ -7,10 +7,11 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
-import { CadastroPage } from '../pages/cadastro/cadastro';
+<<<<<<< Updated upstream
 =======
-import { LoginPage } from '../pages/login/login';
 >>>>>>> Stashed changes
+import { CadastroPage } from '../pages/cadastro/cadastro';
+import { LoginPage } from '../pages/login/login';
 
 =======
 import { CadastroPage } from '../pages/cadastro/cadastro';
@@ -23,11 +24,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-<<<<<<< Updated upstream
     CadastroPage,
-=======
     LoginPage,
->>>>>>> Stashed changes
   ],
   imports: [
     BrowserModule,
@@ -40,13 +38,18 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
-    CadastroPage,
+<<<<<<< Updated upstream
 =======
+>>>>>>> Stashed changes
+    CadastroPage,
     LoginPage,
+<<<<<<< Updated upstream
 
 >>>>>>> Stashed changes
 =======
     CadastroPage
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   ],
   providers: [

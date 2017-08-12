@@ -5,12 +5,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
-<<<<<<< Updated upstream
-import { CadastroPage } from '../pages/cadastro/cadastro';
-=======
 import { LoginPage } from '../pages/login/login';
 
->>>>>>> Stashed changes
 
 @Component({
   templateUrl: 'app.html'
@@ -29,11 +25,7 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'List', component: ListPage },
-<<<<<<< Updated upstream
-      { title: 'Cadastro', component: CadastroPage }
-=======
       { title: 'Login', component: LoginPage }
->>>>>>> Stashed changes
     ];
 
   }
