@@ -37,13 +37,10 @@ export class MyApp {
       { title: 'Home', component: HomeClientePage },
       { title: 'Login', component: LoginPage },
       { title: 'Perfil', component: PerfilPage },
-
-      { title: 'Thanks', component: ThanksPage },
-      { title: 'Map', component: MapPage },
+      { title: 'Sair', component: ThanksPage },
       { title: 'Fragancias', component: FraganciasPage },
       { title: 'Produtos', component: ProdutosPage },
       { title: 'Encontre sua representante', component: MapPage },
-      { title: 'First', component: FirstPage },
       { title: 'Pergunta', component: PerguntaPage },
       { title: 'Satisfacao', component: SatisfacaoPage },
 
