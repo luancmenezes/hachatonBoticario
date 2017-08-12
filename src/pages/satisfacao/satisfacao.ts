@@ -21,7 +21,4 @@ export class SatisfacaoPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad SatisfacaoPage');
   }
-  angular.module('mainModuleName', ['ionic', 'ionic-ratings']){
- //
-}
 }
