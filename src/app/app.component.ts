@@ -21,12 +21,13 @@ export class MyApp {
   pages: Array<{title: string, component: any}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+    this.platform = platform;
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     
     this.pages = [
-      { title: 'Home2', component: HomePage },  
+      { title: 'Home2', component: 'HomePage'  },  
       { title: 'List', component: ListPage },
       { title: 'Login', component: LoginPage },
       { title: 'Home', component: HomeClientePage },
