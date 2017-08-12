@@ -13,8 +13,11 @@ import { ThanksPage } from '../pages/thanks/thanks';
 import { PerfilPage } from '../pages/perfil/perfil';
 import { WelcomePage } from '../pages/welcome/welcome';
 import { FirstPage } from '../pages/first/first';
+import { PerguntaPage } from '../pages/pergunta/pergunta';
+import { SatisfacaoPage } from '../pages/satisfacao/satisfacao';
 
 
+PerguntaPage
 @Component({
   templateUrl: 'app.html'
 })
@@ -41,6 +44,8 @@ export class MyApp {
       { title: 'Perfil vendedora', component: PerfilPage },
       { title: 'Encontre sua representante', component: MapPage },
       { title: 'First', component: FirstPage },
+      { title: 'Pergunta', component: PerguntaPage },
+      { title: 'Satisfacao', component: SatisfacaoPage },
 
     ];
 
